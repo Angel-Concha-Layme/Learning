@@ -1,4 +1,5 @@
-import javax.swing.*;
+package JButton; // agregar el paquete JButton
+import javax.swing.*; // importar los componentes de la ventana
 import java.awt.event.*; // agregar funciones para los componentes de la ventana
 
 public class Formulario extends JFrame implements ActionListener{ // agregar ActionListener para los botones
@@ -24,6 +25,3 @@ public class Formulario extends JFrame implements ActionListener{ // agregar Act
         Formulario.setLocationRelativeTo(null); // centrar la ventana en la pantalla
     }
 }
-
-
-
