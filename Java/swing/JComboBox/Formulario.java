@@ -2,21 +2,19 @@ package JComboBox;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Formulario extends JFrame implements ItemListener{
-    private JComboBox combo1;
+public class Formulario extends JFrame implements ItemListener{ // implements ActionListener
+    private JComboBox combo1; // combo1 = new JComboBox();
 
     public Formulario(){
         setLayout(null);
-        combo1 = new JComboBox();
+        combo1 = new JComboBox(); // crea un JComboBox
         combo1.setBounds(10,10,80,20); 
         add(combo1);
-
         combo1.addItem("Item 1");
         combo1.addItem("Item 2");
         combo1.addItem("Item 3");
         combo1.addItem("Item 4");
         combo1.addItem("Item 5");
-
         combo1.addItemListener(this);
     }
 
@@ -33,6 +31,6 @@ public class Formulario extends JFrame implements ItemListener{
         formulario.setBounds(0,0,300,150);
         formulario.setVisible(true);
         formulario.setResizable(false);
-        formulario.setLocationRelativeTo(null);
+        formulario.setLocationRelativeTo(null); //Centrar ventana
     }
 }
