@@ -11,7 +11,7 @@ public class Formulario extends JFrame implements ItemListener{ // implements Ac
         combo1.setBounds(10,10,80,20); 
         add(combo1);
         combo1.addItem("Item 1");
-        combo1.addItem("Item 2");
+        combo1.addItem("Item 2");                                                                                       
         combo1.addItem("Item 3");
         combo1.addItem("Item 4");
         combo1.addItem("Item 5");
